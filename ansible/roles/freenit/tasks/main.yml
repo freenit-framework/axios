@@ -1,0 +1,5 @@
+---
+- name: install freenit packages
+  with_items: "{{ freenit_packages }}"
+  package:
+    name: "{{ item.name }}"

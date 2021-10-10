@@ -1,0 +1,16 @@
+.provisioned
+ansible/group_vars/all
+ansible/inventory/inventory
+ansible/roles/*
+ansible/site.yml
+!ansible/roles/.keep
+!ansible/roles/freenit
+build/
+cbsd.conf
+site.retry
+project.mk
+vars.mk
+
+node_modules
+dist
+stats.html

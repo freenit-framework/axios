@@ -1,0 +1,4 @@
+---
+freenit_packages:
+  - name: node
+  - name: yarn
